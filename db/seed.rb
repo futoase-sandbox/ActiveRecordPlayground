@@ -23,4 +23,6 @@ module Seed
   end
 end
 
-Seed.build
+if __FILE__ == $0
+  Seed.build
+end
